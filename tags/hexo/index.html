@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
-<link rel="preconnect" href="https://fonts.font.im" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/niconico.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/niconico.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/niconico.png">
+  <link rel="mask-icon" href="/images/niconico.png" color="#222">
+  <link rel="manifest" href="/images/niconico.png">
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300italic,400,400italic,700,700italic%7CFira+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
@@ -84,7 +85,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-grip fa-fw"></i>Categories</a></li><li class="menu-item menu-item-test-page"><a href="/test-page/" rel="section"><i class="fa fa-code-branch fa-fw"></i>test page</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-ghost fa-fw"></i>Home</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-layer-group fa-fw"></i>Categories</a></li><li class="menu-item menu-item-test-page"><a href="/test-page/" rel="section"><i class="fa fa-code-branch fa-fw"></i>test page</a></li>
   </ul>
 </nav>
 
@@ -127,7 +128,7 @@
     
     <div class="sidebar-inner sidebar-blogroll">
       <div class="links-of-blogroll animated">
-        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+        <div class="links-of-blogroll-title"><i class="fa fa-arrow-up-right-from-square fa-fw"></i>
           Links
         </div>
         <ul class="links-of-blogroll-list">
@@ -165,15 +166,15 @@
     <header class="post-header">
       <div class="post-meta-container">
         <time itemprop="dateCreated"
-              datetime="2023-05-11T19:37:01+08:00"
-              content="2023-05-11">
-          05-11
+              datetime="2023-05-31T00:00:00+08:00"
+              content="2023-05-31">
+          05-31
         </time>
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/hexo-next-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B%E5%92%8C%E9%85%8D%E7%BD%AE/" itemprop="url">
-            <span itemprop="name">hexo + next 快速开始和配置</span>
+          <a class="post-title-link" href="/hexo-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B/" itemprop="url">
+            <span itemprop="name">hexo 快速开始</span>
           </a>
       </div>
 
@@ -201,6 +202,23 @@
     <i class="fa-solid fa-cloud"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">palette</span>
+</div><!--全局播放器-->
+<!--<link rel="stylesheet" href="/css/APlayer.min.css">-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/index.min.js"></script>
+<div class="aplayer" 
+  data-id="000JCVeW2hlMtS" 
+  data-server="tencent" 
+  data-type="song" 
+  data-autoplay="true" 
+  data-order="random" 
+  data-volume="0.55" 
+  data-theme="#cc543a"
+  data-listfolded="true"
+  data-preload="auto" >
 </div>
 
     </div>
@@ -238,27 +256,7 @@
 
 
 
-<link rel="stylesheet" 
-  href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/index.min.js"></script>
-
-<div class="aplayer" 
-  data-id="39563107" 
-  data-server="netease" 
-  data-type="album" 
-  data-fixed="true" 
-  data-autoplay="true" 
-  data-order="random" 
-  data-volume="0.55" 
-  data-theme="#cc543a"
-  data-listfolded="true"
-  data-preload="auto" >
-</div>
-
-
+<!--一言-->
 <script>
     fetch('https://v1.hitokoto.cn/?c=i')
   .then(response => response.json())

@@ -184,7 +184,7 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Ubuntu, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Fira Sans, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.125em;
   line-height: 2;
   min-height: 100%;
@@ -197,7 +197,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Ubuntu, Ubuntu, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Fira Mono, Fira Sans, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -432,7 +432,7 @@ pre figcaption a:hover {
 }
 pre,
 code {
-  font-family: Ubuntu Mono, consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
+  font-family: Fira Mono, consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei';
 }
 code {
   border-radius: 3px;
@@ -1007,7 +1007,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: Ubuntu, Ubuntu, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Fira Mono, Fira Sans, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1663,7 +1663,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Ubuntu, Ubuntu, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Fira Mono, Fira Sans, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -1850,7 +1850,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Ubuntu, Ubuntu, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Fira Mono, Fira Sans, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2517,6 +2517,7 @@ header.header {
     padding: 10px 12px;
   }
 }
+/*全局背景图*/
 body {
   background: url("/images/98260510.jpg");
   background-repeat: no-repeat;
@@ -2527,10 +2528,4 @@ body {
   -o-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
-}
-.header {
-  opacity: 1;
-}
-.sidebar {
-  opacity: 1;
 }
